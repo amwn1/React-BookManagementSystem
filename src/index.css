@@ -1,0 +1,71 @@
+
+.container{
+    overflow-x: hidden;
+    overflow-y: auto;    
+    background-image:url("https://wallpaperaccess.com/full/521035.jpg");
+}
+
+.container h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+    color: blue;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.container p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.container .main{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container .form{
+    width: 500px;
+    height: 340px;
+    background-color: #0d2d68;
+    margin: 20px auto;
+    padding: 20px;  
+    padding-bottom: 50px;
+}
+
+.container .form .btn{
+    width: 100%;   
+    color: #e8e9ec;
+    margin-bottom: 50px;
+}
+
+.container .view{
+    width: 600px;    
+    background-color: #3696f0;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-btn{
+    color: rgb(182, 106, 106);
+    cursor: pointer;
+}
+
+tbody{
+    margin-top: 25px;
+}
+
+label{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.table{
+    color: #3696f0;
+}
